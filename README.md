@@ -18,7 +18,7 @@ Then include the package into your javascript file by adding the following line
 const SwipeableDrawer = require("swipeabledrawer");
 ```
 
-# How to use
+# Setup
 First create a SwipeableDrawer element with your navigation in it on your website. Something like:
 ```html
 <swipeable-drawer>
