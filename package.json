@@ -1,7 +1,7 @@
 {
-  "name": "swipabledrawer",
-  "version": "0.1.0",
-  "description": "A swipable drawer",
+  "name": "swipeabledrawer",
+  "version": "0.2.0",
+  "description": "A swipeable drawer",
   "main": "src/drawer.js",
   "author": "PhiliPdB <phlpdbrn@gmail.com> (https://philipdb.com)",
   "license": "GNU GPLv3",
