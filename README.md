@@ -19,7 +19,7 @@ const SwipeableDrawer = require("swipeabledrawer");
 ```
 
 # How to use
-First create a SwipeableDrawer element with your navigation in it on your website. Something like
+First create a SwipeableDrawer element with your navigation in it on your website. Something like:
 ```html
 <swipeable-drawer>
 	<!-- Free to choose content -->
@@ -30,9 +30,9 @@ First create a SwipeableDrawer element with your navigation in it on your websit
 	</div>
 </swipeable-drawer>
 ```
-You can than setup the drawer by putting this in a javascript file
+You can than setup the drawer by putting this in a javascript file:
 ```js
 const drawer = new SwipeableDrawer();
 drawer.setup();
 ```
-This will initialize the drawer and bind the correct events.
+This will initialize the drawer and bind the correct events. You can than also manually open and close the drawer by calling `drawer.open()` and `drawer.close()`. This is useful for extra buttons to open and close the drawer.
