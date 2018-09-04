@@ -4,15 +4,9 @@ class SwipeableDrawer {
 
 	/**
 	 * Initializes all the needed variables
-	 * 
-	 * @param {*} drawerElement For when overwriting the default of <SwipeableDrawer>
 	 */
-	constructor(drawerElement = null) {
-		if (drawerElement !== null) {
-			this.drawer = drawerElement;
-		} else {
-			this.drawer = document.querySelector("SwipeableDrawer");
-		}
+	constructor() {
+		this.drawer = document.querySelector("swipeable-drawer");
 
 		this.startPosition = {
 			x: 0,

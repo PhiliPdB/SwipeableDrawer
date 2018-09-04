@@ -21,14 +21,14 @@ const SwipeableDrawer = require("swipeabledrawer");
 # How to use
 First create a SwipeableDrawer element with your navigation in it on your website. Something like
 ```html
-<SwipeableDrawer>
+<swipeable-drawer>
 	<!-- Free to choose content -->
 	<div class="navigation">
 		<div class="link"><a href="{{link}}">{{name}}</a></div>
 		<div class="link"><a href="{{link}}">{{name}}</a></div>
 		<div class="link"><a href="{{link}}">{{name}}</a></div>
 	</div>
-</SwipeableDrawer>
+</swipeable-drawer>
 ```
 You can than setup the drawer by putting this in a javascript file
 ```js

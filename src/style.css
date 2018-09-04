@@ -2,7 +2,7 @@
 	--animation: .3s 0s cubic-bezier(.55,0,.1,1);
 }
 
-SwipeableDrawer {
+swipeable-drawer {
 	position: fixed;
 	top: 0;
 	left: calc(0px - (100vw - 56px) - 30px);
@@ -16,6 +16,6 @@ SwipeableDrawer {
 				0  8px 10px -5px rgba(0, 0, 0, 0.4);
 }
 
-SwipeableDrawer.open {
+swipeable-drawer.open {
 	transform: translate(calc(100vw - 56px + 30px), 0);
 }
