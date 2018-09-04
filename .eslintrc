@@ -1,0 +1,31 @@
+{
+	"parserOptions": {
+		"ecmaVersion": 6,
+		"sourceType": "module"
+	},
+	"env": {
+		"browser": true,
+		"node": true
+	},
+	"extends": "eslint:recommended",
+	"rules": {
+		"no-console": "off",
+		"no-extra-parens": 1,
+		"no-unexpected-multiline": 2,
+		"eqeqeq": 2,
+		"guard-for-in": 2,
+		"no-alert": 1,
+		"no-else-return": 2,
+		"no-lone-blocks": 2,
+		"no-loop-func": 2,
+		"no-new-func": 2,
+		"brace-style": [2,"1tbs",{"allowSingleLine":true}],
+		"indent": [2,"tab"],
+		"linebreak-style": [2,"unix"],
+		"arrow-spacing": [2,{"before":true,"after":true}],
+		"constructor-super": 2,
+		"no-const-assign": 2,
+		"no-var": 2,
+		"prefer-const": 2
+	}
+}

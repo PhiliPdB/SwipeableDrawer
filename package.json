@@ -1,0 +1,11 @@
+{
+  "name": "swipabledrawer",
+  "version": "0.1.0",
+  "description": "",
+  "main": "src/drawer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "PhiliPdB <phlpdbrn@gmail.com> (https://philipdb.com)",
+  "license": "GNU GPLv3"
+}
