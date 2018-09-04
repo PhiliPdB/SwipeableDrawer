@@ -1,14 +1,18 @@
 'use strict';
 
-class SwipableDrawer {
+class SwipeableDrawer {
 
 	/**
 	 * Initializes all the needed variables
 	 * 
-	 * @param {*} drawerElement 
+	 * @param {*} drawerElement For when overwriting the default of <SwipeableDrawer>
 	 */
-	constructor(drawerElement) {
-		this.drawer = drawerElement;
+	constructor(drawerElement = null) {
+		if (drawerElement !== null) {
+			this.drawer = drawerElement;
+		} else {
+			this.drawer = document.querySelector("SwipeableDrawer");
+		}
 
 		this.startPosition = {
 			x: 0,
@@ -172,4 +176,4 @@ class SwipableDrawer {
 }
 
 // Export the drawer
-module.exports = SwipableDrawer;
+module.exports = SwipeableDrawer;

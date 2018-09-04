@@ -5,7 +5,7 @@ A package that provides a swipeable drawer
 ## Installation
 
 #### By download
-Download `src/drawer.js` and include it into your webpage.
+Download the files in `src/` and include the files in your webpage
 
 #### Using npm (recommended)
 First download by running
@@ -19,19 +19,20 @@ const SwipeableDrawer = require("swipeabledrawer");
 ```
 
 # How to use
-First create an drawer element on your website. Something like
+First create a SwipeableDrawer element with your navigation in it on your website. Something like
 ```html
-<nav id="navigation_drawer">
+<SwipeableDrawer>
+	<!-- Free to choose content -->
 	<div class="navigation">
 		<div class="link"><a href="{{link}}">{{name}}</a></div>
 		<div class="link"><a href="{{link}}">{{name}}</a></div>
 		<div class="link"><a href="{{link}}">{{name}}</a></div>
 	</div>
-</nav>
+</SwipeableDrawer>
 ```
 You can than setup the drawer by putting this in a javascript file
 ```js
-const drawer = new SwipeableDrawer(document.querySelector("#navigation_drawer"));
+const drawer = new SwipeableDrawer();
 drawer.setup();
 ```
 This will initialize the drawer and bind the correct events.
