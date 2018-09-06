@@ -23,7 +23,7 @@ const SwipeableDrawer = require("swipeabledrawer");
 ```
 
 # Setup
-First create a SwipeableDrawer element with your navigation in it on your website. Something like:
+First create a SwipeableDrawer element with your navigation in it on your webpage. Something like this:
 ```html
 <swipeable-drawer>
 	<!-- Free to choose content -->
