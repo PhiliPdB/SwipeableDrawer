@@ -1,4 +1,4 @@
-# SwipeableDrawer
+# WIP: SwipeableDrawer
 
 A package that provides a swipeable drawer
 
@@ -36,3 +36,6 @@ const drawer = new SwipeableDrawer();
 drawer.setup();
 ```
 This will initialize the drawer and bind the correct events. You can than also manually open and close the drawer by calling `drawer.open()` and `drawer.close()`. This is useful for extra buttons to open and close the drawer.
+
+# TODO
+- Bundle styling with the package
