@@ -1,4 +1,8 @@
 # WIP: SwipeableDrawer
+![NPM Version](https://img.shields.io/npm/v/swipeabledrawer.svg)
+![NPM Downloads](https://img.shields.io/npm/dt/swipeabledrawer.svg)
+![License](https://img.shields.io/github/license/philipdb/swipeabledrawer.svg)
+
 
 A package that provides a swipeable drawer
 
