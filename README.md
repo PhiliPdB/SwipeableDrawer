@@ -6,7 +6,7 @@
 
 A package that provides a swipeable drawer
 
-## Installation
+# Installation
 
 #### By download
 Download the files in `src/` and include the files in your webpage
