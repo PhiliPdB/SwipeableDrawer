@@ -1,19 +1,20 @@
 {
   "name": "swipeabledrawer",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "A swipeable drawer",
   "keywords": [
     "drawer",
     "swipeable"
   ],
-  "main": "src/drawer.js",
+  "browser": "src/drawer.js",
   "author": "PhiliPdB <phlpdbrn@gmail.com> (https://philipdb.com)",
   "license": "GNU GPLv3",
+  "homepage": "https://github.com/PhiliPdB/SwipeableDrawer",
   "repository": {
     "type": "git",
-    "url": "https://github.com/PhiliPdB/SwipableDrawer"
+    "url": "https://github.com/PhiliPdB/SwipeableDrawer"
   },
   "bugs": {
-    "url": "https://github.com/PhiliPdB/SwipableDrawer/issues"
+    "url": "https://github.com/PhiliPdB/SwipeableDrawer/issues"
   }
 }
