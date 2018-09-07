@@ -3,7 +3,6 @@
 [![NPM Downloads](https://img.shields.io/npm/dt/swipeabledrawer.svg)](https://www.npmjs.com/package/swipeabledrawer)
 [![License](https://img.shields.io/github/license/philipdb/swipeabledrawer.svg)](https://github.com/PhiliPdB/SwipeableDrawer/blob/master/LICENSE)
 
-
 A package that provides a swipeable drawer
 
 # Installation
@@ -41,5 +40,9 @@ drawer.setup();
 ```
 This will initialize the drawer and bind the correct events. You can than also manually open and close the drawer by calling `drawer.open()` and `drawer.close()`. This is useful for extra buttons to open and close the drawer.
 
-# TODO
-- Bundle styling with the package
+Furthermore you need to import `src/style.css` into your webpage. This can be done using various methods. For example, when using [webpack](https://webpack.github.io/) with [css-loader](https://github.com/webpack-contrib/css-loader) you can add the following line to your css file:
+```css
+@import "~swipeabledrawer/src/style";
+```
+Read more about this [here](https://robwise.github.io/blog/quick-tip-webpack-import-css-from-node-modules).
+
